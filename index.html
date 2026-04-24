@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>rodrigues.dev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">rodrigues.dev</div>
+    <div class="nav-links">
+      <a href="#about">sobre</a>
+      <a href="#projects">projetos</a>
+      <a href="#social">contato</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-orb orb1"></div>
+    <div class="hero-bg-orb orb2"></div>
+
+    <p class="hero-eyebrow">// desenvolvedor</p>
+
+    <h1 class="hero-name">
+      <span class="name-joao">João</span>
+      <span class="name-paulo">Paulo</span>
+      <span class="name-rodrigues">Rodrigues</span>
+    </h1>
+
+    <!--<div class="domain-line">  PARTE DEBAIXO DO NOME, ACHO QUE FICOU REDUDANTE
+      <span class="domain-rodrigues">rodrigues</span>
+      <span class="domain-dot-dev">.dev</span>
+    </div> -->
+
+    <p class="hero-sub">Construindo experiências digitais enquanto aprendo.</p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">Ver Projetos →</a>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      scroll
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-photo-wrap reveal">
+      <div class="photo-frame">
+        <!-- Troque o src pela URL da sua foto -->
+        <div class="photo-placeholder" id="photoPlaceholder">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+          <span><img src="foto.jpeg" alt="foto_rodrigues"/></span>
+        </div>
+      </div>
+      <div class="photo-deco"></div>
+      <div class="photo-tag">// joão paulo</div>
+    </div>
+
+    <div class="about-text reveal">
+      <p class="section-label">// sobre mim</p>
+      <h2 class="section-title">Olá, eu sou o <span>João Paulo</span></h2>
+      <p>
+       Desenvolvedor em formação, com foco na construção de interfaces modernas que unem 
+       <strong>performance</strong> e <strong>estética</strong>. Gosto de transformar ideias em aplicações reais, sempre buscando boas práticas e evolução constante.
+      </p>
+
+      <p>
+      Estudando e aplicando tecnologias do ecossistema web no dia a dia, através de projetos práticos 
+      que simulam cenários reais e fortalecem minha base como desenvolvedor.
+      </p>
+      <div class="skills-grid">
+  
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+    <span>HTML</span>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+    <span>CSS</span>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+    <span>JavaScript</span>
+  </div>
+
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+    <span>React</span>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
+    <span>Java</span>
+  </div>
+
+
+</div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="reveal">
+      <p class="section-label">// trabalhos</p>
+      <h2 class="section-title">Meus <span>Projetos</span></h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-num">01 (Em desenvolvimento)</div>
+        <div class="project-name">Duck Estoque</div>
+        <p class="project-desc">
+          O Duck Estoque é um sistema de controle de estoque que substitui processos manuais por uma solução digital eficiente, com foco em organização, produtividade e uma interface moderna, além de demonstrar habilidades em desenvolvimento full stack.
+        </p>
+        <div class="project-tags">
+          <span class="project-tag">HTML</span>
+          <span class="project-tag">CSS</span>
+         <span class="project-tag">JavaScript</span>
+          <span class="project-tag">Java + Spring Boot</span>
+          <span class="project-tag">MySql</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="#">↗ Live</a>
+          <a class="project-link" href="#">⌥ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">02 (Em desenvolvimento)</div>
+        <div class="project-name">Landing Pages</div>
+        <p class="project-desc">
+          Coleção de landing pages desenvolvidas com foco em design moderno, performance e experiência do usuário. 
+          Os projetos exploram animações, microinterações e efeitos baseados em scroll, criando interfaces dinâmicas que vão além de layouts estáticos e simulam aplicações reais.
+        </p>
+        <div class="project-tags">
+          <span class="project-tag">JavaScript</span>
+          <span class="project-tag">CSS</span>
+          <span class="project-tag">HTML</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="#">↗ Live</a>
+          <a class="project-link" href="#">⌥ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-num">03</div>
+        <div class="project-name">Em breve Treon...</div>
+        <p class="project-desc">
+          Desenvolvimento Mobile
+        </p>
+        <div class="project-tags">
+          <span class="project-tag">React</span>
+          <span class="project-tag">Java</span>
+          <span class="project-tag">MySql</span>
+        </div>
+      
+      </div>
+
+      <!-- <div class="add-project-card reveal">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/>
+        </svg>
+        <span>ADICIONAR PROJETO</span>
+      </div> -->
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SOCIAL -->
+  <section id="social">
+    <div class="reveal">
+      <p class="section-label">// redes</p>
+      <h2 class="section-title">Vamos <span>Conversar</span></h2>
+    </div>
+
+    <div class="social-grid">
+
+      <a class="social-card reveal" href="mailto:seuemail@email.com">
+        <div class="social-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="1.8">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7"/>
+          </svg>
+        </div>
+        <div class="social-info">
+          <span class="social-name">E-mail</span>
+          <span class="social-handle">contatorodriguesrods@gmail.com</span>
+        </div>
+      </a>
+
+      <a class="social-card reveal" href="https://www.linkedin.com/in/joaopaulorodriguess/" target="_blank">
+        <div class="social-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="1.8">
+            <rect x="2" y="2" width="20" height="20" rx="3"/>
+            <path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 014 0v4M12 10v7"/>
+          </svg>
+        </div>
+        <div class="social-info">
+          <span class="social-name">LinkedIn</span>
+          <span class="social-handle">Joao Paulo</span>
+        </div>
+      </a>
+
+      <a class="social-card reveal" href="https://github.com/Rodriguesrods" target="_blank">
+        <div class="social-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="1.8">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+          </svg>
+        </div>
+        <div class="social-info">
+          <span class="social-name">GitHub</span>
+          <span class="social-handle">@Rodriguesrods</span>
+        </div>
+      </a>
+
+      <a class="social-card reveal" href="https://www.instagram.com/rodriguesdevv/" target="_blank">
+        <div class="social-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="1.8">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="#a855f7"/>
+          </svg>
+        </div>
+        <div class="social-info">
+          <span class="social-name">Instagram</span>
+          <span class="social-handle">@Rodriguesdevv</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>© 2026 <span>rodrigues.dev</span> — Feito com paciênia</div>
+    <div>João Paulo Rodrigues</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
